@@ -1,11 +1,6 @@
-import { surround, doIt } from './tools';
+import { surround } from './tools';
 import { describe, expect, it } from 'vitest';
 
-describe('doIt()', () => {
-	it("works", () => {
-		expect(doIt()).toBe('okok');
-	});
-});
 describe('surround()', () => {
 	it("returns various brackets correctly", () => {
 		expect(surround('test', '[]')).toBe('[test]');

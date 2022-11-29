@@ -14,7 +14,3 @@ export const surround = (text: string, twoLetters: string) => {
 		return first + text + second;
 	}
 }
-
-export const doIt = () => {
-	return 'okok';
-}
